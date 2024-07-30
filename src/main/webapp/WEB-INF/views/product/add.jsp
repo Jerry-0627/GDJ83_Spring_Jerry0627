@@ -11,6 +11,7 @@
 <body id="page-top">
 	<div id="wrapper">
 		<c:import url="/WEB-INF/views/template/sidebar.jsp"></c:import>
+		<c:import url="/WEB-INF/views/template/Summer.jsp"></c:import>
 		<div id="content-wrapper" class="d-flex flex-column">
 			<div id="content">
 				<c:import url="/WEB-INF/views/template/topbar.jsp"></c:import>
@@ -33,8 +34,8 @@
 
 						<div class="mb-3">
 							<label for="Product Ex" class="form-label">Product Ex</label>
-							<input type="text" class="form-control" id="Product Ex"
-								name="product_ex">
+							<textarea id="Product Ex"
+								name="product_ex"></textarea>
 						</div>
 
 						<div class="mb-3">
@@ -58,6 +59,7 @@
 	<script src="/resources/js/commons/files.js"></script>
 	<script>
 		setMax(5);
+		$("#Product Ex").summernote();
 	</script>
 </body>
 </html>

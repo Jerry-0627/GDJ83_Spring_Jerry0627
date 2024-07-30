@@ -59,5 +59,6 @@
 			<c:import url="/WEB-INF/views/template/footerScript.jsp"></c:import>
 		</div>
 	</div>
+	<script src="/resources/js/product/wish.js"></script>
 </body>
 </html>
